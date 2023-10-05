@@ -7,7 +7,8 @@
 #'
 #' @examples
 calculateage <- function(year_born){
-  as.numeric(format(Sys.Date(), "%Y"))-year_born
+  current_age <- as.numeric(format(Sys.Date(), "%Y"))-year_born
+  return(current_age)
 
 }
 
